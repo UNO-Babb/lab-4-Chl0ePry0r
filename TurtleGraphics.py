@@ -42,13 +42,13 @@ def squaresInSquares(myTurtle,num):
     for i in range(num):
         drawSquare (myTurtle, size)
         size = size + 20
-        penup()
+        myTurtle.penup()
         myTurtle.right(180)
         myTurtle.forward(10)
         myTurtle.right(90)
         myTurtle.forward(10)
         myTurtle.right(90)
-        pendown()
+        myTurtle.pendown()
      
         
 def main():
